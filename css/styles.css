@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-   color: #434455;
+    color: #434455;
     background-color: #fff;
 }
 
@@ -108,6 +108,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 2px;
     height: 2px;
     width: 100%;
+    
 }
 
 .nav-link-link:hover,
@@ -188,6 +189,7 @@ margin-bottom: 48px;
         height: 56px;
         border: none;
         border-radius: 4px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-hero:hover, 
@@ -238,7 +240,17 @@ margin-bottom: 8px;
     max-width: 264px;
 }
 
-
+.feauter-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--light-slate);
+    background: #f4f4fd;
+border-radius: 4px;
+margin-bottom: 8px;
+width: 264px;
+height: 112px;
+}
 
 /* ----section3------ */
 .section-photo{
@@ -355,6 +367,33 @@ background: #fff;
 width: calc((100% - 48px) / 3);
 }
 
+.portfolio-list-item:hover .portfolio-cover-conteiner{
+    transform: translateY(0);
+}
+.portfolio-cover-wrap{
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-cover-conteiner{
+    position: absolute;
+    top: 0;
+    background: #4D5AE5;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 40px 32px;
+    transform: translatey(100%);
+    transition: transform 300ms linear;
+}
+
+.portfolio-cover-text{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #fff;
+}
+
 .portfolio-heading{
 text-align: center;
 margin-bottom: 72px;
@@ -392,7 +431,7 @@ margin-bottom: 72px;
 }
 
 .footer-left{
-    margin-right: 120 px;
+    margin-right: 120px;
 }
 
 .footer-oll{
@@ -465,7 +504,6 @@ fill: #f4f4fd;
 .footer-feauter{
     color:#fff;
     font-size: 16px;
-    font-weight: 500px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
