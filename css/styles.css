@@ -71,7 +71,7 @@ align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-part {
@@ -135,15 +135,15 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .address-list{
     display: flex;
     gap: 40px;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-link{
-transition: color cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link-tel{
-transition: color cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -152,7 +152,7 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition:  color cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
@@ -306,11 +306,13 @@ gap: 24px;
     text-align: center;
     margin-bottom: 72px;
 }
+
 .item-text-photo{
     padding: 32px 0;
     border: 1px solid #E7E9FC;
         border-top: none;
 }
+
 .text-item {
     color: #2E2F42;
     text-align: center;
@@ -321,6 +323,7 @@ gap: 24px;
         text-align: center;
         margin-bottom: 8px;
 }
+
 .heading-items-item{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
@@ -328,6 +331,7 @@ gap: 24px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .text-item-desc {
     color: #434455;
     text-align: center;
@@ -406,7 +410,6 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
 .portfolio-cover-wrap{
     position: relative;
     overflow: hidden;
@@ -463,7 +466,6 @@ margin-bottom: 72px;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 
 /* footer */
 
