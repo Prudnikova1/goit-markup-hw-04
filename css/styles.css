@@ -217,8 +217,12 @@ background-color: #404BBF;
     padding: 120px 0;
     display: flex;
     border-radius: 4px;
-    height: 112px;
+    
 }
+.feauter-block{
+
+}
+
 .features-item{
     width: calc((100% - 72px) / 4);
     align-items: center;
@@ -245,6 +249,7 @@ background-color: #404BBF;
 .features-list{
     display:flex;
     gap: 24px;
+    height: 112px;
 }
 
 .feauters-subtitle {
