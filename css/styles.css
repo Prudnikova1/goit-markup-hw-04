@@ -401,6 +401,7 @@ border-top: none;
 background: #fff;
 width: calc((100% - 48px) / 3);
 background: var(--white);
+
 }
 
 .portfolio-list-item:hover{ 
@@ -415,9 +416,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .portfolio-cover-wrap{
     position: relative;
     overflow: hidden;
-    top: 0cm;
+    /* top: 0cm;
     display: flex;
-    align-items: center;
+    align-items: center; */
 }
 
 .portfolio-cover-text{
@@ -434,11 +435,12 @@ position: absolute;
     height: 100%;
     display: flex;
     align-items: center;
+    transform: translateY(100%);
 }
 
-/* .portfolio-cover-text:hover {
-transform: translateY(100%);
-} */
+.portfolio-cover-text:hover {
+
+} 
 
 .portfolio-heading{
 text-align: center;
