@@ -172,6 +172,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding: 188px 0;
         width: 100%;
         max-width: 1440px;
+        margin: 0 auto;
 }
 
 .hero-title {
@@ -263,13 +264,7 @@ margin-bottom: 8px;
 }
 
 .feauter-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--light-slate);
-    background: #f4f4fd;
-width: 264px;
-height: 112px;
+
 }
 
 .feauter-list-item{
@@ -279,6 +274,7 @@ height: 112px;
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    border: 1px solid #8e8f99;
 }
 
 /* ----section3------ */
@@ -340,6 +336,7 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 120px;
 }
 
 .photo-icons{
