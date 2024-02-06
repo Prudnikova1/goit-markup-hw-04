@@ -222,6 +222,7 @@ background-color: #404BBF;
     width: calc((100% - 72px) / 4);
     align-items: center;
     justify-content: center;
+    height: 112px;
 }
 
 .photo-icons-link{
