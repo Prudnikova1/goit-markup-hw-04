@@ -268,10 +268,6 @@ margin-bottom: 8px;
     max-width: 264px;
 }
 
-.feauter-icon{
-height: 112px;
-}
-
 .feauter-list-item{
     display: flex;
     align-items: center;
@@ -342,7 +338,7 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 8px;
 }
 
 .photo-icons{
