@@ -49,7 +49,8 @@ p {
     font-style: normal;
 }
 
-/* -----header------ */
+/* --------------------------- */
+/* ----------header----------- */
 .nav{
     align-items: center;
     display: flex;
@@ -159,7 +160,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .address-link:focus {
     color: #404BBF;
 }
-/* -----section1----- */
+
+/* -------------------------- */
+/* ---------section1--------- */
 
 .section-hero {
     background-color: #2E2F42;
@@ -212,7 +215,8 @@ margin-bottom: 48px;
 background-color: #404BBF;
 }
 
-/* -----section2------ */
+/* --------------------------- */
+/* ---------section2---------- */
 .features {
     padding: 120px 0;
     display: flex;
@@ -278,8 +282,8 @@ margin-bottom: 8px;
     border: 1px solid #8e8f99;
     height: 112px;
 }
-
-/* ----section3------ */
+/* ------------------------- */
+/* --------section3--------- */
 .section-photo{
 background:#F4F4FD;
 padding: 120px 0;
@@ -376,7 +380,8 @@ gap: 24px;
 .photo-icons-svg{
 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-/*----- portfolio -------*/
+/*-----------------------------*/
+/*--------- portfolio ---------*/
 
 .portfolio{
     color: #2e2f42;
@@ -415,9 +420,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .portfolio-cover-wrap{
     position: relative;
     overflow: hidden;
-    /* top: 0cm;
-    display: flex;
-    align-items: center; */
 }
 
 .portfolio-cover-text{
@@ -469,7 +471,8 @@ margin-bottom: 72px;
     color: #434455;
 }
 
-/* footer */
+/* --------------------------- */
+/*--- ------footer------------*/
 
 .footer {
     background: #2E2F42;
